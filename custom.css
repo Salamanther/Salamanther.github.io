@@ -1,0 +1,65 @@
+.home-page {
+  position: relative;
+  top: 61px;
+}
+
+.img-circle {
+  position: absolute;
+  left: 30%;
+  top:25px;
+  z-index: 98;
+  max-width: 40%;
+}
+
+.collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  padding-left: 45px;
+}
+.menu {
+  background-color:rgba(0,62,79,0.3);
+  padding-left: 25px;
+  margin-left: 20px;
+}
+
+.nav-item {
+  padding-right: 45px;
+}
+
+h4 {
+  text-align: center;
+}
+
+.ingredients {
+  background-color: #F0A991;
+  padding-left: 25px;
+  padding-right: 45px;
+  margin-left: 20px;
+}
+
+footer {
+  padding-left: 95px;
+  padding-right: 45px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  text-align: left;
+  color: #ffffff;
+  background-color: rgba(0,62,79,0.9);
+}
+
+$(".navbar-nav>li>a").on("click", function(){
+  $(".navbar-collapse").collapse("hide");
+});
